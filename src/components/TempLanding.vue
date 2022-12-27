@@ -17,10 +17,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "TempLanding.vue"
-}
+<script setup lang="ts">
+
 </script>
 
 <style scoped>
