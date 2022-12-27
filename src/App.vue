@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import TempLanding from './components/TempLanding.vue'
+import MainView from './components/MainView.vue'
 </script>
 
 <template>
 
-  <TempLanding/>
+  <MainView/>
 
 </template>
 
