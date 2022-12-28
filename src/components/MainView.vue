@@ -1,8 +1,6 @@
 <template>
   <div class="panel-layout">
-  <div class="left-column">
-    <img class="top-left-icon" src="../assets/theLeague.jpg">
-  </div>
+    <LeftSidebar/>
   </div>
 
   <div class="footer">
@@ -11,6 +9,16 @@
 </template>
 
 <script setup lang="ts">
+
+import LeftSidebar from "@/components/LeftSidebar.vue";
+
+function getLeague(){
+  const leagueId = 715986967640215552;
+
+}
+
+
+
 
 </script>
 
@@ -22,26 +30,6 @@
   width: 100%;
   background-color: #3f5f5f;
   overflow: hidden;
-}
-
-.left-column {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 200px;
-  background-color: #3f3f3f;
-}
-
-.column p {
-  margin: 0 0 5rem 0;
-  font-size: 1.5rem;
-}
-
-.top-left-icon {
-  margin: 10%;
-  width: 80%;
-  align-self: auto;
-  border-radius: 25px;
 }
 
 .footer {
